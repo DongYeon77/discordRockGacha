@@ -2,7 +2,6 @@ import { Client, GatewayIntentBits, EmbedBuilder, inlineCode } from 'discord.js'
 import sqlite3 from 'sqlite3';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-const TOKEN = "MTIyMzY3MzA3ODcxOTE4OTA5Mw.G4gU2z.r_ys07QKxUbegRhJisCqK0Hrd5aPvzYBlzPpTs";
 const db = new sqlite3.Database('rock.db', (err) => {
   if (err) {
     console.error('Unable to open database file:', err);
