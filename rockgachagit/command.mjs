@@ -1,7 +1,5 @@
 import { REST, Routes } from 'discord.js';
 
-const CLIENT_ID = "1223673078719189093";
-
 const commands = [
   {
     name: '뽑기권구매',
