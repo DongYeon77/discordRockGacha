@@ -1,7 +1,6 @@
 import { REST, Routes } from 'discord.js';
 
 const CLIENT_ID = "1223673078719189093";
-const TOKEN = "MTIyMzY3MzA3ODcxOTE4OTA5Mw.G4gU2z.r_ys07QKxUbegRhJisCqK0Hrd5aPvzYBlzPpTs";
 
 const commands = [
   {
